@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 from dataclasses import dataclass
 from typing import Final
+import sklearn
 from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
